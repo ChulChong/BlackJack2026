@@ -4,17 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Player {
-    public String getName() {
-        return name;
-    }
-
-    public List<Card> getHand() {
-        return hand;
-    }
 
     final private String name;
     final private List<Card> hand;
-
 
     public Player(String name) {
         this.name = name;
@@ -51,5 +43,14 @@ public class Player {
         }
         return total;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public List<Card> getHand() {
+        return hand;
+    }
+
 
 }

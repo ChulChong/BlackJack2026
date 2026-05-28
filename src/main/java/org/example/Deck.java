@@ -3,6 +3,10 @@ package org.example;
 import java.util.*;
 
 public class Deck {
+    public Queue<Card> getCards() {
+        return cards;
+    }
+
     final private Queue<Card> cards;
 
     public Deck() {
